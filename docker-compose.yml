@@ -1,0 +1,10 @@
+mysql:
+  image: mysql
+postgres:
+  image: postgres
+redis:
+  image: redis
+memcached:
+  image: memcached
+nginx:
+  image: nginx
