@@ -1,0 +1,12 @@
+term:
+  image: myun2/vim-vundle-tmux
+  volumes:
+    - ~/:/root/dev
+  working_dir: /root/dev
+  entrypoint: sh
+web:
+  image: webrick
+  ports:
+    - 8000:8080
+  volumes:
+    - ~/pixcell:/pixcell
