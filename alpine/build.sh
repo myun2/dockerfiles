@@ -1,2 +1,3 @@
-docker build . -t myun2/base-alpine -f Dockerfile
-docker tag myun2/base-alpine myun2/base-alpine:3.6
+docker build . -t alpine-base -f Dockerfile
+docker tag alpine-base myun2/alpine-base
+docker tag alpine-base myun2/alpine-base:3.6
